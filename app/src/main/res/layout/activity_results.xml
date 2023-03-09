@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/abstract_bg_image"
+    android:id="@+id/resultlayout"
+    tools:context=".ResultsActivity">
+
+    <TextView
+        android:id="@+id/tv_qtitle"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:text="RESULTS"
+        android:fontFamily="sans-serif-thin"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:letterSpacing="0.2"
+        android:gravity="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/white"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"/>
+
+    <TextView
+        android:id="@+id/tv_total"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:background="@drawable/rectangle"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:text="..."
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tv_rights"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:background="@drawable/rectangle"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:text="..."
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tv_wrongs"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:background="@drawable/rectangle"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:text="..."
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btn_again"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/rectangle"
+        app:backgroundTint="@color/pink"
+        android:textColor="@color/white"
+        android:text="Try Again"
+        android:paddingBottom="15dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_browse"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/rectangle"
+        app:backgroundTint="@color/pink"
+        android:textColor="@color/white"
+        android:paddingBottom="15dp"
+        android:text="Do another quiz"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_highscore"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/rectangle"
+        app:backgroundTint="@color/pink"
+        android:textColor="@color/white"
+        android:paddingBottom="15dp"
+        android:text="View High Scores"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

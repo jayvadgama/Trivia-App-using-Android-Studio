@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "559776759245",
+    "project_id": "trivia-wars-66254",
+    "storage_bucket": "trivia-wars-66254.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559776759245:android:3f1d41768f0942f0565884",
+        "android_client_info": {
+          "package_name": "com.example.trivia_wars"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "559776759245-uv8f5ui0hoj4dvqrtqo2pn1l2ov9pehs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZXNu7wt_CTZjATycxpqALENG4QQlZauY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "559776759245-uv8f5ui0hoj4dvqrtqo2pn1l2ov9pehs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

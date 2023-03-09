@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottom_curve_landing_page_high_res"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/abstract_bg_view"
+        android:layout_width="446dp"
+        android:layout_height="867dp"
+        android:layout_marginTop="-175dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/abstract_bg" />
+
+    <ImageView
+        android:id="@+id/dark_tint_view"
+        android:layout_width="wrap_content"
+        android:layout_height="540dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dark_tint_landing_page" />
+
+    <ImageView
+        android:id="@+id/logo_glow_up_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_curve_landing_page_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/dark_tint_view"
+        app:srcCompat="@drawable/logo_glowup" />
+
+    <ImageView
+        android:id="@+id/bottom_curve_landing_page_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bottom_curve_landing_page" />
+
+    <ImageView
+        android:id="@+id/logo_landing_page_view"
+        android:layout_width="172dp"
+        android:layout_height="130dp"
+        app:layout_constraintBottom_toBottomOf="@+id/logo_glow_up_view"
+        app:layout_constraintEnd_toEndOf="@+id/logo_glow_up_view"
+        app:layout_constraintStart_toStartOf="@+id/logo_glow_up_view"
+        app:layout_constraintTop_toTopOf="@+id/logo_glow_up_view"
+        app:srcCompat="@drawable/tw_logo" />
+
+    <TextView
+        android:id="@+id/tv_showname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-50dp"
+        android:text="Welcome"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textColor="#006277"
+        android:textFontWeight="500"
+        android:textSize="25sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/bottom_curve_landing_page_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bottom_curve_landing_page_view"
+        app:layout_constraintVertical_bias="0.35000002"/>
+
+    <ImageButton
+        android:id="@+id/btn_takequiz"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:padding="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/trans"
+        android:src="@drawable/take_a_quiz_button_home_page"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toBottomOf="@+id/tv_showname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_createquiz"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:padding="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/trans"
+        android:src="@drawable/create_a_quiz_button_home_page"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toBottomOf="@+id/btn_takequiz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Widget.MaterialComponents.CardView"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:clickable="true"
+    app:cardCornerRadius="10dp"
+    app:rippleColor="@color/purple_500"
+    app:strokeWidth="1dp"
+    app:strokeColor="@color/material_on_background_disabled"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="false"
+    >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/card_bg"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="25sp"
+            android:padding="2dp"
+            android:textColor="@color/white"
+            android:text="Norse Mythology" />
+
+        </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
